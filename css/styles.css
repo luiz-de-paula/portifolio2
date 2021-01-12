@@ -71,7 +71,8 @@ header{
     font-size: 2rem;
     text-shadow: .3rem 2px rgba(0,0,0,.4);
     margin-bottom: 2rem;
-    animation: moveBanner 2s;
+    opacity: 0;
+    animation: moveBanner 2s forwards;
     
 
     
@@ -90,7 +91,8 @@ header{
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    animation: moveBanner 3s;
+    opacity: 0;
+    animation: moveBanner 3s forwards;
 
 }
 
